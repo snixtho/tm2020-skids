@@ -26,7 +26,7 @@ To change your skids follow these steps:
 3. Chose your skid mark represented as a .dds file, and copy it to `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage`.
 4. Rename the copied file inside `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage` to `CarGrassMarks.dds`. So that the file looks as following: `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage\CarGrassMarks.dds`.
 
-Here is an example of how it looks with all surfaces installed:
+Here is an example of how it looks with all surfaces installed and no dirt smoke:
 ![](Images/modwork_example.png)
 
 You can repeat the process for changing skids, just replace the files in `Documents/Trackmania` for the new skids. You do not need to restart the game or reload the map, changing skids will show live ingame. However, if you remove the skids, you will need to restart your game first.
