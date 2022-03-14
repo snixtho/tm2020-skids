@@ -1,5 +1,9 @@
 # TrackMania 2020 Custom Skid Marks
 
+<p align="center">
+  <img src="https://github.com/snixtho/tm2020-skids/blob/master/Images/header.png" />
+</p>
+
 ## How to install
 **WARNING: This will overwrite custom mods on some maps.**
 
