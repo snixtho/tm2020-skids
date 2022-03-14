@@ -29,7 +29,7 @@ To change your skids follow these steps:
 Here is an example of how it looks with all surfaces installed and no dirt smoke:
 ![](Images/modwork_example.png)
 
-You can repeat the process for changing skids, just replace the files in `Documents/Trackmania` for the new skids. You do not need to restart the game or reload the map, changing skids will show live ingame. However, if you remove the skids, you will need to restart your game first.
+You can repeat the process for changing skids, just replace the files for the new skids. You do not need to restart the game or reload the map, changing skids will update live ingame. However, if you remove the skids, you will need to restart your game first.
 
 ### Removing the custom skids
 To remove the custom skid marks, either rename or remove the folder called `ModWork` in `Documents\Trackmania\Skins\Stadium`. You will need to restart the game, otherwise skid marks will appear solid black.
