@@ -3,6 +3,7 @@
 ## How to install
 **NOTE: This will overwrite custom mods on maps.**
 
+To change your skids follow these steps:
 1. [Download](https://github.com/snixtho/tm2020-skids/releases/latest/download/Skids.zip) the ZIP file and extract the `Skids` folder.
 2. Open the extracted `Skids` folder and open the folder for the skid mark you want.
 3. Copy the `Skins` folder inside the chosen skids, and paste it into your `Documents/Trackmania` folder.
