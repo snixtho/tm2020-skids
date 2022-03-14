@@ -33,3 +33,5 @@ You can repeat the process for changing skids, just replace the files for the ne
 
 ### Removing the custom skids
 To remove the custom skid marks, either rename or remove the folder called `ModWork` in `Documents\Trackmania\Skins\Stadium`. You will need to restart the game, otherwise skid marks will appear solid black.
+
+You can also replace the skids with the `Default.dds` for each surface so you don't have to restart the game. But keep in mind that this still overrides map mods.
