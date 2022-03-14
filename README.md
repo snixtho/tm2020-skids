@@ -5,7 +5,7 @@
 </p>
 
 ## How to install
-**WARNING: This will overwrite custom mods on some maps.**
+**WARNING: This will override custom mods on some maps.**
 
 To change your skids follow these steps:
 1. [Download](https://github.com/snixtho/tm2020-skids/releases/latest/download/Skids.zip) the ZIP file and extract the `Skids` folder.
