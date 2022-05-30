@@ -7,6 +7,10 @@
 ## How to install
 **WARNING: This will override all texture mods on custom maps.**
 
+If you already use Openplanet, you can make use of [Greep's Skid Marks Manager plugin](https://openplanet.dev/plugin/skidmarksmanager), which you can install automatically skids.
+
+If you do not use Openplanet, you can install your skids manually:
+
 To change your skids follow these steps:
 1. [Download](https://github.com/snixtho/tm2020-skids/releases/latest/download/Skids.zip) the ZIP file and extract the `Skids` folder.
 2. Find your local `Trackmania` folder in your `Documents` directory - it may also be called `Trackmania2020`. To keep it simple, it'll just be called `Trackmania` from now on.
