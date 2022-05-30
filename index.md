@@ -1,7 +1,7 @@
 # TrackMania 2020 Custom Skid Marks
 
 <p align="center">
-  <img src="https://github.com/snixtho/tm2020-skids/blob/master/Images/header.png" />
+  <img src="https://raw.githubusercontent.com/snixtho/tm2020-skids/master/Images/header.png" />
 </p>
 
 ## How to install
