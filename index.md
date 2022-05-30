@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# TrackMania 2020 Custom Skid Marks
 
-You can use the [editor on GitHub](https://github.com/snixtho/tm2020-skids/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <img src="https://github.com/snixtho/tm2020-skids/blob/master/Images/header.png" />
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How to install
+**WARNING: This will override all texture mods on custom maps.**
 
-### Markdown
+If you already use Openplanet, you can make use of [Greep's Skid Marks Manager plugin](https://openplanet.dev/plugin/skidmarksmanager), which installs the skids from this repository automatically. For issues related to this plugin, [please post them here](https://github.com/GreepTheSheep/openplanet-skidmarks-manager/issues) and not in this repository!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To change your skids follow these steps:
+1. [Download](https://github.com/snixtho/tm2020-skids/releases/latest/download/Skids.zip) the ZIP file and extract the `Skids` folder.
+2. Find your local `Trackmania` folder in your `Documents` directory - it may also be called `Trackmania2020`. To keep it simple, it'll just be called `Trackmania` from now on.
+3. Then inside `Documents\Trackmania\Skins\Stadium`, create a folder called `ModWork`.
+4. Follow the instructions below for each surface.
 
-```markdown
-Syntax highlighted code block
+### Asphalt/Tarmac Skids
+1. Create a folder called `CarFxImage` inside `Documents\Trackmania\Skins\Stadium\ModWork`.
+2. Inside the downloaded and extracted `Skids` folder, open the `Asphalt` folder.
+3. Choose your skid marks represented as a .dds file, and copy them to `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage`.
+4. Rename the copied file inside `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage` to `CarAsphaltMarks.dds` so that the file path looks like this: `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage\CarAsphaltMarks.dds`.
 
-# Header 1
-## Header 2
-### Header 3
+### Dirt Skids
+1. Inside the downloaded and extracted `Skids` folder, open the `Dirt` folder.
+2. Choose your skid marks represented as a .dds file, and copy them to `Documents\Trackmania\Skins\Stadium\ModWork`.
+3. Rename the copied file inside `Documents\Trackmania\Skins\Stadium\ModWork` to `DirtMarks.dds` so that the file path looks like this: `Documents\Trackmania\Skins\Stadium\ModWork\DirtMarks.dds`.
+4. As a bonus, you can disable the smoke effect by copying the `DirtSmoke.dds` file into `Documents\Trackmania\Skins\Stadium\ModWork`.
 
-- Bulleted
-- List
+### Grass Skids
+1. Create a folder called `CarFxImage` inside `Documents\Trackmania\Skins\Stadium\ModWork`.
+2. Inside the downloaded and extracted `Skids` folder, open the `Grass` folder.
+3. Choose your skid marks represented as a .dds file, and copy them to `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage`.
+4. Rename the copied file inside `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage` to `CarGrassMarks.dds` so that the file path looks like this: `Documents\Trackmania\Skins\Stadium\ModWork\CarFxImage\CarGrassMarks.dds`.
 
-1. Numbered
-2. List
+### You're done!
+Here is an example of how it looks with all surfaces installed and no dirt smoke:
+![](Images/modwork_example.png)
 
-**Bold** and _Italic_ and `Code` text
+You can repeat the process for changing skids, just replace the files for the new skids. You do not need to restart the game or reload the map, changing skids will update live ingame. However, if you remove the skids, you will need to restart your game first.
 
-[Link](url) and ![Image](src)
-```
+## How to uninstall
+To remove the custom skid marks, either rename or remove the `ModWork` folder in `Documents\Trackmania\Skins\Stadium`. You will need to restart the game, otherwise skid marks will appear solid black.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+You can also replace the skids with the `Default.dds` for each surface so you don't have to restart the game. But keep in mind that this still overrides map mods.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/snixtho/tm2020-skids/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## How to create your own custom skid marks
+Each surface includes a `Default.dds` file, which should be the original skids used by the game. You can use these as templates in any program that allows editing of DDS (DirectDraw Surface) files. Save the DDS files with **DXT5** or higher versions.
