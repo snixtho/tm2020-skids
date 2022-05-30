@@ -7,9 +7,7 @@
 ## How to install
 **WARNING: This will override all texture mods on custom maps.**
 
-If you already use Openplanet, you can make use of [Greep's Skid Marks Manager plugin](https://openplanet.dev/plugin/skidmarksmanager), which you can install automatically skids.
-
-If you do not use Openplanet, you can install your skids manually:
+If you already use Openplanet, you can make use of [Greep's Skid Marks Manager plugin](https://openplanet.dev/plugin/skidmarksmanager), which installs the skids from this repository automatically.
 
 To change your skids follow these steps:
 1. [Download](https://github.com/snixtho/tm2020-skids/releases/latest/download/Skids.zip) the ZIP file and extract the `Skids` folder.
